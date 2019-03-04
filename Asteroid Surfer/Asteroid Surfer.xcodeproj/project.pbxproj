@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557761B22228D6740029FA1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557761B12228D6740029FA1E /* AppDelegate.swift */; };
+		557761B42228D6740029FA1E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 557761B32228D6740029FA1E /* GameScene.sks */; };
+		557761B82228D6740029FA1E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557761B72228D6740029FA1E /* GameScene.swift */; };
+		557761BA2228D6740029FA1E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557761B92228D6740029FA1E /* GameViewController.swift */; };
+		557761BD2228D6750029FA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557761BB2228D6750029FA1E /* Main.storyboard */; };
+		557761BF2228D6790029FA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557761BE2228D6790029FA1E /* Assets.xcassets */; };
+		557761C22228D6790029FA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557761C02228D6790029FA1E /* LaunchScreen.storyboard */; };
+		557761CE2229FB630029FA1E /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 557761CD2229FB630029FA1E /* explosion.wav */; };
+		557761D02229FB6D0029FA1E /* backgroundmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 557761CF2229FB6D0029FA1E /* backgroundmusic.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		557761AE2228D6740029FA1E /* Asteroid Surfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asteroid Surfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557761B12228D6740029FA1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		557761B32228D6740029FA1E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		557761B72228D6740029FA1E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		557761B92228D6740029FA1E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		557761BC2228D6750029FA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		557761BE2228D6790029FA1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		557761C12228D6790029FA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		557761C32228D6790029FA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557761CD2229FB630029FA1E /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		557761CF2229FB6D0029FA1E /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		557761AB2228D6740029FA1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		557761A52228D6740029FA1E = {
+			isa = PBXGroup;
+			children = (
+				557761B02228D6740029FA1E /* Asteroid Surfer */,
+				557761AF2228D6740029FA1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		557761AF2228D6740029FA1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				557761AE2228D6740029FA1E /* Asteroid Surfer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		557761B02228D6740029FA1E /* Asteroid Surfer */ = {
+			isa = PBXGroup;
+			children = (
+				557761CD2229FB630029FA1E /* explosion.wav */,
+				557761CF2229FB6D0029FA1E /* backgroundmusic.mp3 */,
+				557761B12228D6740029FA1E /* AppDelegate.swift */,
+				557761B32228D6740029FA1E /* GameScene.sks */,
+				557761B72228D6740029FA1E /* GameScene.swift */,
+				557761B92228D6740029FA1E /* GameViewController.swift */,
+				557761BB2228D6750029FA1E /* Main.storyboard */,
+				557761BE2228D6790029FA1E /* Assets.xcassets */,
+				557761C02228D6790029FA1E /* LaunchScreen.storyboard */,
+				557761C32228D6790029FA1E /* Info.plist */,
+			);
+			path = "Asteroid Surfer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		557761AD2228D6740029FA1E /* Asteroid Surfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557761C62228D6790029FA1E /* Build configuration list for PBXNativeTarget "Asteroid Surfer" */;
+			buildPhases = (
+				557761AA2228D6740029FA1E /* Sources */,
+				557761AB2228D6740029FA1E /* Frameworks */,
+				557761AC2228D6740029FA1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asteroid Surfer";
+			productName = "Asteroid Surfer";
+			productReference = 557761AE2228D6740029FA1E /* Asteroid Surfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		557761A62228D6740029FA1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jacqualyn Blizzard-Caron";
+				TargetAttributes = {
+					557761AD2228D6740029FA1E = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 557761A92228D6740029FA1E /* Build configuration list for PBXProject "Asteroid Surfer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 557761A52228D6740029FA1E;
+			productRefGroup = 557761AF2228D6740029FA1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				557761AD2228D6740029FA1E /* Asteroid Surfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		557761AC2228D6740029FA1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557761CE2229FB630029FA1E /* explosion.wav in Resources */,
+				557761BD2228D6750029FA1E /* Main.storyboard in Resources */,
+				557761B42228D6740029FA1E /* GameScene.sks in Resources */,
+				557761BF2228D6790029FA1E /* Assets.xcassets in Resources */,
+				557761D02229FB6D0029FA1E /* backgroundmusic.mp3 in Resources */,
+				557761C22228D6790029FA1E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		557761AA2228D6740029FA1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557761B82228D6740029FA1E /* GameScene.swift in Sources */,
+				557761BA2228D6740029FA1E /* GameViewController.swift in Sources */,
+				557761B22228D6740029FA1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		557761BB2228D6750029FA1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557761BC2228D6750029FA1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		557761C02228D6790029FA1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557761C12228D6790029FA1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		557761C42228D6790029FA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		557761C52228D6790029FA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		557761C72228D6790029FA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 945PC9VRLK;
+				INFOPLIST_FILE = "Asteroid Surfer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacqualyn-Blizzard.Asteroid-Surfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		557761C82228D6790029FA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 945PC9VRLK;
+				INFOPLIST_FILE = "Asteroid Surfer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacqualyn-Blizzard.Asteroid-Surfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		557761A92228D6740029FA1E /* Build configuration list for PBXProject "Asteroid Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557761C42228D6790029FA1E /* Debug */,
+				557761C52228D6790029FA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557761C62228D6790029FA1E /* Build configuration list for PBXNativeTarget "Asteroid Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557761C72228D6790029FA1E /* Debug */,
+				557761C82228D6790029FA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 557761A62228D6740029FA1E /* Project object */;
+}
